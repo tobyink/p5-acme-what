@@ -14,10 +14,10 @@
 	:homepage       <https://metacpan.org/release/Acme-What> ;
 	:download-page  <https://metacpan.org/release/Acme-What> ;
 	:bug-database   <http://rt.cpan.org/Dist/Display.html?Queue=Acme-What> ;
-	:respository    [ a :HgRepository; :browse <https://bitbucket.org/tobyink/p5-acme-what> ] ;
+	:respository    [ a :GitRepository; :browse <https://github.com/tobyink/p5-acme-what> ] ;
 	:created        "2012-02-06"^^xsd:date ;
 	:license        <http://dev.perl.org/licenses/> ;
-	:developer      [ a foaf:Person ; foaf:name "Toby Inkster" ; foaf:mbox <mailto:tobyink@cpan.org> ] .
+	:maintainer     [ a foaf:Person ; foaf:name "Toby Inkster" ; foaf:mbox <mailto:tobyink@cpan.org> ] .
 
 <http://dev.perl.org/licenses/>
 	dc:title        "the same terms as the perl 5 programming language system itself" .
