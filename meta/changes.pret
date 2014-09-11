@@ -33,3 +33,11 @@ dist:v_0-002
 		item "Switch to Dist::Inkt."^^Packaging;
 	].
 
+`Acme-What 0.003 cpan:TOBYINK`
+	issued    2014-09-11;
+	changeset [
+		item "Use base.pm instead of parent.pm."^^Update;
+		item "Use Sub::Util instead of Sub::Name."^^Update;
+		item "Somewhat simplify bundled example."^^Documentation;
+	].
+
