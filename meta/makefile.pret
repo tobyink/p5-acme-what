@@ -1,6 +1,7 @@
 @prefix deps:  <http://ontologi.es/doap-deps#> .
 
 <http://purl.org/NET/cpan-uri/dist/Acme-What/project>
+	deps:runtime-requirement         [ deps:on "perl 5.010"^^deps:CpanId ];
 	deps:runtime-requirement         [ deps:on "Devel::Declare"^^deps:CpanId ];
 	deps:runtime-requirement         [ deps:on "Sub::Util"^^deps:CpanId ];
 	deps:test-requirement            [ deps:on "Test::Exception"^^deps:CpanId ];
