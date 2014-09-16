@@ -79,7 +79,7 @@ sub _quote
 sub _do
 {
 	no strict 'refs';
-	my ($self, @args) = @_;	
+	my ($self, @args) = @_;
 	my @caller = caller(1);
 	
 	my $meth = $caller[10]{ (__PACKAGE__) };
