@@ -14,7 +14,7 @@
 	:homepage       <https://metacpan.org/release/Acme-What> ;
 	:download-page  <https://metacpan.org/release/Acme-What> ;
 	:bug-database   <http://rt.cpan.org/Dist/Display.html?Queue=Acme-What> ;
-	:respository    [ a :GitRepository; :browse <https://github.com/tobyink/p5-acme-what> ] ;
+	:repository     [ a :GitRepository; :browse <https://github.com/tobyink/p5-acme-what> ] ;
 	:created        "2012-02-06"^^xsd:date ;
 	:license        <http://dev.perl.org/licenses/> ;
 	:maintainer     [ a foaf:Person ; foaf:name "Toby Inkster" ; foaf:mbox <mailto:tobyink@cpan.org> ] .
