@@ -6,7 +6,7 @@ package Acme::What;
 
 BEGIN {
 	$Acme::What::AUTHORITY = 'cpan:TOBYINK';
-	$Acme::What::VERSION   = '0.004';
+	$Acme::What::VERSION   = '0.005';
 }
 
 use Devel::Declare;

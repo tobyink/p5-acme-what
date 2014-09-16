@@ -41,3 +41,8 @@ dist:v_0-002
 		item "Somewhat simplify bundled example."^^Documentation;
 	].
 
+`Acme-What 0.005 cpan:TOBYINK`
+	issued    2014-09-16;
+	changeset [
+		item "Fix repo link."^^Packaging;
+	].
